@@ -1,0 +1,11 @@
+FORMAT RAW BIN
+OPTION  QUIET,
+        NODefaultlibs,
+        START=entry,
+        VERBOSE,
+        STACK=0x200,
+        OFFSET=0
+ORDER   CLNAME  CODE
+            SEGMENT _ENTRY
+            SEGMENT _TEXT
+        CLNAME  DATA

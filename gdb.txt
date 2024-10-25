@@ -1,0 +1,8 @@
++fs cmd
+Focus set to cmd window.
++stepi
+0x00007c23 in ?? ()
++set trace-commands off
+Warning: 'set logging off', an alias for the command 'set logging enabled', is deprecated.
+Use 'set logging enabled off'.
+
